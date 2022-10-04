@@ -22,9 +22,12 @@ def openWebsites(url):                                                 # Funcao 
         pyautogui.typewrite(['enter'])                                 # Press enter.
 
 
-def acessarVendas():
-    pyautogui.moveTo(x=1036, y=159)                 #clica no nome de usuario
+def acessarVendas():                                                    #função para acessar a aba 'vendas'
+    pyautogui.moveTo(x=1036, y=159)                                     #clica no nome de usuario
     time.sleep(1)
-    pyautogui.click(x=920, y=677)                   #clica na opção vendas
+    pyautogui.click(x=920, y=677)                                       #clica na opção 'vendas
+
+def printSituacao():
+    Image = pyautogui.screenshot('SituacaoVendas.png', region=(424, 427, 418, 579))
 
 
