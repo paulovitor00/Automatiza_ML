@@ -50,7 +50,7 @@ def enviosituacao():
     time.sleep(5)
     pyautogui.click(x=209, y=146)
     time.sleep(5)
-    email = 'jeancarlossilva2015@hotmail.com'
+    email = 'Unavailable'
     pyautogui.typewrite(email, interval=0.002)
     pyautogui.typewrite(['enter'])
     time.sleep(1)
